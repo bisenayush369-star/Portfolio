@@ -6,8 +6,7 @@ Built with a focus on performance, clarity, and modern UI design.
 ---
 
 ## 🚀 Live Portfolio
-(Add after hosting)
-https://YOUR_USERNAME.github.io/portfolio/
+https://bisenayush369-star.github.io/Portfolio/
 
 ---
 

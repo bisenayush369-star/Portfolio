@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+/* HERO */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.hero h2 {
+  color: #60a5fa;
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.hero p {
+  max-width: 600px;
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  color: #cbd5e1;
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: #ffffff;
+  background: #3b82f6;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+  display: inline-block;
+}
+
+.buttons a:hover {
+  background: #2563eb;
+}
+
+.buttons a:last-child {
+  background: transparent;
+  border: 2px solid #3b82f6;
+  color: #3b82f6;
+}
+
+.buttons a:last-child:hover {
+  background: #3b82f6;
+  color: #ffffff;
+}
+
+/* SECTIONS */
+.section {
+  padding: 100px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 56px;
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+}
+
+/* PROJECTS */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 32px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  transition: border-color 0.2s ease;
+}
+
+.card:hover {
+  border-color: #475569;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: #cbd5e1;
+  margin-bottom: 16px;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.card span {
+  display: inline-block;
+  font-size: 0.875rem;
+  color: #94a3b8;
+  margin-bottom: 24px;
+}
+
+.links {
+  margin-top: 24px;
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  color: #60a5fa;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.links a:hover {
+  color: #93c5fd;
+  text-decoration: underline;
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.skills span {
+  background: #1e293b;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #e2e8f0;
+  border: 1px solid #334155;
+  font-weight: 500;
+}
+
+/* ABOUT */
+.about {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  color: #cbd5e1;
+  line-height: 1.9;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  border-top: 1px solid #334155;
+  padding-top: 64px;
+  margin-top: 60px;
+}
+
+.footer h2 {
+  margin-bottom: 24px;
+}
+
+.footer p {
+  margin-bottom: 12px;
+  color: #cbd5e1;
+  font-size: 1rem;
+}
+
+.footer a {
+  color: #60a5fa;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: #93c5fd;
+  text-decoration: underline;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 20px;
+    min-height: 90vh;
+  }
+
+  .section {
+    padding: 70px 20px;
+  }
+
+  .section h2 {
+    margin-bottom: 44px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .card {
+    padding: 24px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .buttons a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h2 {
+    font-size: 1.125rem;
+  }
+
+  .section h2 {
+    font-size: 1.75rem;
+  }
+
+  .card h3 {
+    font-size: 1.25rem;
+  }
+}
