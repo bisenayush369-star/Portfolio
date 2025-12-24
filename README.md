@@ -6,7 +6,7 @@ Built with a focus on performance, clarity, and modern UI design.
 ---
 
 ## 🚀 Live Portfolio
-https://bisenayush369-star.github.io/Portfolio/
+https://ayushdevx.netlify.app/
 
 ---
 

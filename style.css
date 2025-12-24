@@ -80,6 +80,28 @@ body {
   color: #ffffff;
 }
 
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.social-links a {
+  color: #60a5fa;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #93c5fd;
+  text-decoration: underline;
+}
+
 /* SECTIONS */
 .section {
   padding: 100px 20px;
@@ -246,6 +268,10 @@ body {
   .buttons a {
     width: 100%;
     text-align: center;
+  }
+
+  .social-links {
+    gap: 16px;
   }
 }
 
