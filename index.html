@@ -5,18 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ayush | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
 
   <!-- HERO -->
   <header class="hero">
     <h1>Ayush Bisen</h1>
-    <h2>Frontend Developer</h2>
-    <p>I build websites and applications that work across all devices, load quickly, and are easy to use.</p>
+    <h2>Full-Stack Developer</h2>
+    <p>I design and build full-stack web applications with a focus on scalability, performance, and clean user experience. I work across the frontend and backend using Next.js, React, Redux, Node.js, and MongoDB to deliver real-world, production-ready solutions.</p>
 
     <div class="buttons">
-      <a href="#projects">View Work</a>
-      <a href="https://github.com/bisenayush369-star" target="_blank">GitHub</a>
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="#contact" class="btn-secondary">Connect</a>
+      <a href="https://github.com/bisenayush369-star" target="_blank" rel="noopener noreferrer" class="btn-secondary">GitHub</a>
     </div>
 
     <div class="social-links">
@@ -25,53 +31,74 @@
     </div>
 
     <p style="margin-top:16px; font-size:14px; opacity:0.85;">
-    Open to freelance projects and frontend roles
+    🚀 Available for freelance projects, startup collaborations, and full-stack roles.
   </p>
 </header>
 
   <!-- PROJECTS -->
   <section id="projects" class="section">
-    <h2>Work</h2>
+    <h2>Projects</h2>
 
     <div class="projects">
+
+      <div class="card card-premium">
+        <div class="card-header">
+          <div>
+            <span class="featured-label">Featured Project</span>
+            <h3>KeyOps – Password Manager</h3>
+          </div>
+        </div>
+        <p>A full-stack password manager built using the MERN stack with a modern Next.js frontend and secure state handling.</p>
+        <ul class="feature-list">
+          <li>Secure password storage (MongoDB)</li>
+          <li>Real-time frontend–backend sync</li>
+          <li>Global state management</li>
+        </ul>
+        <span class="tech-stack">Next.js • Tailwind • MERN</span>
+        <div class="links">
+          <a href="https://key-ops.netlify.app" target="_blank" rel="noopener noreferrer" class="btn-link btn-primary-link">Live Demo</a>
+          <a href="https://keyops-password-manager.onrender.com/" class="btn-link btn-secondary-link">API</a>
+          <a href="https://github.com/bisenayush369-star/KeyOps-Password-Manager" target="_blank" rel="noopener noreferrer" class="btn-link btn-secondary-link">Source Code</a>
+        </div>
+      </div>
 
       <div class="card">
         <h3>Spotify Clone</h3>
         <p>Music streaming interface with player controls, playlist management, and clear navigation. Built with responsive design for mobile and desktop.</p>
-        <span>HTML • CSS • JavaScript</span>
+        <span class="tech-stack">HTML · CSS · JavaScript</span>
         <div class="links">
-          <a href="https://spotify-clone-u.netlify.app/" target="_blank">Live</a>
-          <a href="https://github.com/bisenayush369-star/Spotify-Clone" target="_blank">GitHub</a>
+          <a href="https://spotify-clone-u.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn-link btn-primary-link">Live Demo</a>
+          <a href="https://github.com/bisenayush369-star/Spotify-Clone" target="_blank" rel="noopener noreferrer" class="btn-link btn-secondary-link">Source Code</a>
         </div>
       </div>
 
       <div class="card">
         <h3>X (Twitter) UI Clone</h3>
         <p>Social media interface that matches the original design system. Responsive across devices with interactive components and consistent styling.</p>
-        <span>HTML • Tailwind CSS • JavaScript</span>
+        <span class="tech-stack">HTML · Tailwind CSS · JavaScript</span>
         <div class="links">
-          <a href="https://x-cloane.netlify.app" target="_blank">Live</a>
-          <a href="https://github.com/bisenayush369-star/X-Clone" target="_blank">GitHub</a>
+          <a href="https://x-cloane.netlify.app" target="_blank" rel="noopener noreferrer" class="btn-link btn-primary-link">Live Demo</a>
+          <a href="https://github.com/bisenayush369-star/X-Clone" target="_blank" rel="noopener noreferrer" class="btn-link btn-secondary-link">Source Code</a>
         </div>
       </div>
 
       <div class="card">
         <h3>Task Management App</h3>
         <p>Application for creating, organizing, and tracking tasks. Built with React for fast updates and a clean interface that scales with project size.</p>
-        <span>React • JavaScript • CSS</span>
+        <span class="tech-stack">React · JavaScript · CSS</span>
         <div class="links">
-          <a href="https://ayush-itask.netlify.app/" target="_blank">Live</a>
-          <a href="https://github.com/bisenayush369-star/TODO-LIST">GitHub</a>
+          <a href="https://work-setup.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn-link btn-primary-link">Live Demo</a>
+          <a href="https://github.com/bisenayush369-star/TODO-LIST" target="_blank" rel="noopener noreferrer" class="btn-link btn-secondary-link">Source Code</a>
         </div>
       </div>
 
       <div class="card">
         <h3>Netflix UI Clone</h3>
         <p>Video platform interface with content carousels, hero sections, and category navigation. Optimized for browsing large content libraries.</p>
-        <span>HTML • CSS • JavaScript</span>
+        <span class="tech-stack">HTML · CSS · JavaScript</span>
         <div class="links">
-          <a href="https://netflex-ayushdevx.netlify.app/">Live</a>
-          <a href="https://github.com/bisenayush369-star/Netflix-Clone" target="_blank" target="_blank">GitHub</a>
+          <a href="https://netflex-ayushdevx.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn-link btn-primary-link">Live Demo</a>
+          <a href="https://github.com/bisenayush369-star/Netflix-Clone" target="_blank" rel="noopener noreferrer" class="btn-link btn-secondary-link">Source Code</a>
         </div>
       </div>
 
@@ -82,8 +109,7 @@
   <section class="section">
     <h2>About</h2>
     <p class="about">
-      I build interfaces that are fast, accessible, and reliable across all devices. My work focuses on clean code, 
-      clear design, and consistent performance. I write HTML, CSS, and JavaScript that works as intended and is easy to maintain.
+      I'm a full-stack developer with hands-on experience building and deploying production-ready web applications using the MERN stack and Next.js. I focus on writing clean, maintainable code, designing scalable architectures, and delivering reliable user experiences. I enjoy working on real-world problems, integrating frontend and backend systems, and continuously improving performance, accessibility, and usability.
     </p>
   </section>
 
@@ -91,28 +117,32 @@
   <section class="section">
     <h2>Technologies</h2>
     <div class="skills">
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>React</span>
-      <span>Tailwind CSS</span>
-      <span>Git & GitHub</span>
+      <span class="skill-item">Next.js</span>
+      <span class="skill-item">React</span>
+      <span class="skill-item">Redux</span>
+      <span class="skill-item">JavaScript</span>
+      <span class="skill-item">Tailwind CSS</span>
+      <span class="skill-item">Node.js</span>
+      <span class="skill-item">Express.js</span>
+      <span class="skill-item">MongoDB</span>
+      <span class="skill-item">HTML</span>
+      <span class="skill-item">CSS</span>
+      <span class="skill-item">Git & GitHub</span>
     </div>
   </section>
 
   <!-- CONTACT -->
-  <footer class="section footer">
-    <h2>Contact</h2>
-    <p><a href="mailto:bisenayush369@gmail.com">Hire Me</a></p>
-    <p>
+  <footer id="contact" class="section footer">
+    <h2>Connect</h2>
+    <p class="connect-intro">Let's connect for freelance work, collaborations, or opportunities.</p>
+    <p class="contact-button"><a href="mailto:bisenayush369@gmail.com" class="btn-contact">Hire Me</a></p>
+    <div class="footer-links">
       <a href="https://github.com/bisenayush369-star" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </p>
-    <p>
-      <a href="https://x.com/AyushdevX" target="_blank" rel="noopener noreferrer" aria-label="Follow on X (Twitter)">X (Twitter)</a>
-    </p>
-    <p>
+      <span class="separator">·</span>
+      <a href="https://x.com/AyushdevX" target="_blank" rel="noopener noreferrer" aria-label="Follow on X (Twitter)">X</a>
+      <span class="separator">·</span>
       <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank" rel="noopener noreferrer" aria-label="Connect on LinkedIn">LinkedIn</a>
-    </p>
+    </div>
   </footer>
 
 </body>
