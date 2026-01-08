@@ -45,4 +45,4 @@ Ayush (AyushdevX)
 
 ## ⭐ Support
 
-If you like this project, give it a star on GitHub.
+If you like this portfolio, give it a star on GitHub.
