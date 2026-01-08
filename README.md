@@ -38,12 +38,11 @@ It highlights real projects, practical skills, and my approach to building fast,
 
 ---
 
-## 📂 Project Structure
+## 👨‍💻 Dev
+Ayush (AyushdevX)
 
-PORTFOLIO/
-│
-├── index.html
-├── style.css
-├── assets/
-│ └── images/
-└── README.md# Portfolio
+---
+
+## ⭐ Support
+
+If you like this project, give it a star on GitHub.
