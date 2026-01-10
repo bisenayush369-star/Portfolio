@@ -43,6 +43,7 @@ Task tracking application with a clean UI and scalable structure.
 
 ---
 
+<<<<<<< HEAD
 ### 🎵 Spotify Clone
 Music streaming UI with playlists, player controls, and responsive layout.
 
@@ -99,3 +100,13 @@ Open to:
 ---
 
 Built by @ayushdevx
+=======
+## 👨‍💻 Dev
+Ayush (AyushdevX)
+
+---
+
+## ⭐ Support
+
+If you like this portfolio, give it a star on GitHub.
+>>>>>>> c494c3b537126736f51243e2877b931943a48d6b
