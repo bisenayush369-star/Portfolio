@@ -1,49 +1,101 @@
-# 🌐 Ayush Bisen — Portfolio Website
+# 🌐 Ayush Bisen — Developer Portfolio
 
-A clean, responsive **developer portfolio website** showcasing my projects, skills, and experience as a frontend developer.  
-Built with a focus on performance, clarity, and modern UI design.
+A clean, modern **full-stack developer portfolio** showcasing real projects, skills, and hands-on experience.  
+Focused on clarity, performance, and real-world usability.
 
 ---
 
 ## 🚀 Live Portfolio
-https://ayushdevx.netlify.app/
+
+👉 https://ayushdevx.netlify.app/
 
 ---
 
-## 📌 About This Project
+## 👋 About
 
-This portfolio represents my journey as a frontend developer.  
-It highlights real projects, practical skills, and my approach to building fast, responsive, and user-friendly web interfaces.
+I’m **Ayush Bisen**, a **Full-Stack Developer** building scalable, high-performance web applications using the **MERN stack**.
 
----
-
-## 🛠️ Tech Stack
-
-- HTML5  
-- CSS3  
-- JavaScript  
-- Responsive Design  
-- Git & GitHub  
+I enjoy solving real-world problems by designing clean user interfaces, building reliable backend systems, and delivering smooth user experiences.  
+I’m also familiar with **Redux** for state management and **Next.js** for modern React-based applications.
 
 ---
 
-## ✨ Features
+## ⭐ Featured Projects
 
-- Fully responsive (mobile, tablet, desktop)
-- Clean and minimal UI
-- Project showcase with live & GitHub links
-- Skills and technology section
-- Fast loading and accessible layout
-- Easy to extend and maintain
+### 🔐 KeyOps — Password Manager (Featured)
+A full-stack password manager with secure credential storage and real backend APIs.
+
+**Highlights**
+- Secure password storage with MongoDB
+- REST APIs built with Node.js & Express
+- Full CRUD functionality
+- Production-ready deployment
+
+**Tech Stack:** MongoDB · Express · React · Node.js  
+**Live Demo & Source Code:** Available on portfolio
 
 ---
 
-## 📂 Project Structure
+### 🗂️ Task Management App
+Task tracking application with a clean UI and scalable structure.
 
-PORTFOLIO/
-│
-├── index.html
-├── style.css
-├── assets/
-│ └── images/
-└── README.md# Portfolio
+**Tech Stack:** React · Vite ·JavaScript · Tailwind CSS 
+
+---
+
+### 🎵 Spotify Clone
+Music streaming UI with playlists, player controls, and responsive layout.
+
+**Tech Stack:** HTML · CSS · JavaScript
+
+---
+
+### 🐦 X (Twitter) UI Clone
+Social media UI clone with responsive and interactive components.
+
+**Tech Stack:** HTML · Tailwind CSS · JavaScript
+
+---
+
+### 🎬 Netflix UI Clone
+Video platform interface with hero sections and content carousels.
+
+**Tech Stack:** HTML · CSS 
+
+---
+
+## 🛠️ Technologies
+
+**Frontend**
+- React
+- Next.js
+- Redux
+- JavaScript
+- HTML
+- CSS
+- Tailwind CSS
+
+**Backend**
+- Node.js
+- Express.js
+- MongoDB
+
+**Tools**
+- Git
+- GitHub
+- Deployment (Netlify / Render)
+
+---
+
+## 📬 Contact
+
+Open to:
+- Freelance projects  
+- Startup collaborations  
+- Full-stack roles  
+
+👉 Reach out via the **Connect / Hire Me** section on my portfolio.
+
+---
+
+Built by @ayushdevx
