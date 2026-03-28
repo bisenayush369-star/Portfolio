@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Replace with your name -->
+    <title>[YOUR_NAME] | Dev Terminal</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="crt">
+    <div class="crt-noise"></div>
+    <div class="page-shell">
+      <!-- TOP BAR / NAV -->
+      <header class="top-bar">
+        <div class="top-bar-left">
+          <!-- Replace with your moniker / handle -->
+          <span class="prompt-label">dev@portfolio:~$</span>
+          <span class="prompt-command">cat profile.txt</span>
+        </div>
+        <nav class="top-nav" aria-label="Primary">
+          <a href="#hero">_home</a>
+          <a href="#projects">_projects</a>
+          <a href="#github">_github</a>
+          <a href="#stack">_tech-stack</a>
+          <a href="#blog">_blog</a>
+          <a href="#contact">_contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <!-- HERO / INTRO -->
+        <section id="hero" class="terminal-window hero-window" aria-label="Intro">
+          <div class="window-header">
+            <span class="window-dot red"></span>
+            <span class="window-dot amber"></span>
+            <span class="window-dot green"></span>
+            <span class="window-title">~/whoami</span>
+          </div>
+          <div class="window-body hero-body">
+            <p class="terminal-line">
+              <span class="terminal-path">dev@portfolio</span>
+              <span class="terminal-symbol">:</span>
+              <span class="terminal-dir">~</span>
+              <span class="terminal-symbol">$</span>
+              <span class="terminal-command"> whoami</span>
+            </p>
+
+            <!-- Replace with your name and role -->
+            <h1 class="hero-title">[YOUR_NAME]</h1>
+            <h2 class="hero-subtitle">[YOUR_PRIMARY_ROLE] / [YOUR_TAGLINE]</h2>
+
+            <!-- Replace with a short 2–3 line description -->
+            <p class="hero-description">
+              I craft open-source tools and web experiences with a focus on reliability, performance, and DX. This
+              terminal is a snapshot of what I ship, write, and experiment with.
+            </p>
+
+            <div class="hero-cta-row">
+              <a href="#projects" class="btn btn-solid">view_open_source_projects</a>
+              <a href="#contact" class="btn btn-ghost">open_contact_form</a>
+            </div>
+
+            <div class="hero-meta">
+              <!-- Replace links with your profiles -->
+              <span class="meta-label">socials</span>
+              <a href="[YOUR_GITHUB_URL]" target="_blank" rel="noopener noreferrer">github</a>
+              <span class="divider">·</span>
+              <a href="[YOUR_X_URL]" target="_blank" rel="noopener noreferrer">x</a>
+              <span class="divider">·</span>
+              <a href="[YOUR_LINKEDIN_URL]" target="_blank" rel="noopener noreferrer">linkedin</a>
+              <span class="divider">·</span>
+              <span class="availability">
+                <!-- Replace with your availability note -->
+                STATUS: accepting_open_source_collabs & freelance_work
+              </span>
+            </div>
+          </div>
+        </section>
+
+        <!-- OPEN SOURCE PROJECTS -->
+        <section id="projects" class="terminal-window section-window" aria-label="Open-source projects">
+          <div class="window-header">
+            <span class="window-dot red"></span>
+            <span class="window-dot amber"></span>
+            <span class="window-dot green"></span>
+            <span class="window-title">~/open-source</span>
+          </div>
+          <div class="window-body">
+            <p class="section-caption">ls ./projects/open-source</p>
+
+            <div class="project-grid">
+              <!-- PROJECT CARD 1 -->
+              <article class="project-card">
+                <!-- Replace with repo name -->
+                <h3 class="project-name">[PROJECT_1_NAME]</h3>
+                <!-- Replace with a short description -->
+                <p class="project-description">
+                  [Short description of what this project solves, how it helps developers, or what makes it interesting.]
+                </p>
+                <dl class="project-meta">
+                  <div>
+                    <dt>stack</dt>
+                    <!-- Replace with tech stack -->
+                    <dd>[Tech_1] · [Tech_2] · [Tech_3]</dd>
+                  </div>
+                  <div>
+                    <dt>role</dt>
+                    <!-- e.g. Creator, Maintainer, Contributor -->
+                    <dd>[your_role_here]</dd>
+                  </div>
+                  <div>
+                    <dt>status</dt>
+                    <dd>[stable / in-progress / archived]</dd>
+                  </div>
+                </dl>
+                <div class="project-links">
+                  <!-- Replace links -->
+                  <a href="[PROJECT_1_REPO_URL]" target="_blank" rel="noopener noreferrer">view_source</a>
+                  <a href="[PROJECT_1_LIVE_URL]" target="_blank" rel="noopener noreferrer">open_live_demo</a>
+                </div>
+              </article>
+
+              <!-- PROJECT CARD 2 -->
+              <article class="project-card">
+                <h3 class="project-name">[PROJECT_2_NAME]</h3>
+                <p class="project-description">
+                  [Another open-source project description. Mention impact: downloads, stars, or how people use it.]
+                </p>
+                <dl class="project-meta">
+                  <div>
+                    <dt>stack</dt>
+                    <dd>[Tech_1] · [Tech_2] · [Tech_3]</dd>
+                  </div>
+                  <div>
+                    <dt>role</dt>
+                    <dd>[your_role_here]</dd>
+                  </div>
+                  <div>
+                    <dt>status</dt>
+                    <dd>[stable / in-progress]</dd>
+                  </div>
+                </dl>
+                <div class="project-links">
+                  <a href="[PROJECT_2_REPO_URL]" target="_blank" rel="noopener noreferrer">view_source</a>
+                  <a href="[PROJECT_2_LIVE_URL]" target="_blank" rel="noopener noreferrer">open_live_demo</a>
+                </div>
+              </article>
+
+              <!-- PROJECT CARD 3 -->
+              <article class="project-card">
+                <h3 class="project-name">[PROJECT_3_NAME]</h3>
+                <p class="project-description">
+                  [Describe a smaller or experimental repo: CLI tools, utilities, tiny libraries, or experiments.]
+                </p>
+                <dl class="project-meta">
+                  <div>
+                    <dt>stack</dt>
+                    <dd>[Tech_1] · [Tech_2]</dd>
+                  </div>
+                  <div>
+                    <dt>role</dt>
+                    <dd>[your_role_here]</dd>
+                  </div>
+                  <div>
+                    <dt>status</dt>
+                    <dd>[experimental]</dd>
+                  </div>
+                </dl>
+                <div class="project-links">
+                  <a href="[PROJECT_3_REPO_URL]" target="_blank" rel="noopener noreferrer">view_source</a>
+                  <a href="[PROJECT_3_LIVE_URL]" target="_blank" rel="noopener noreferrer">open_live_demo</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- GITHUB STATS -->
+        <section id="github" class="terminal-window section-window" aria-label="GitHub statistics">
+          <div class="window-header">
+            <span class="window-dot red"></span>
+            <span class="window-dot amber"></span>
+            <span class="window-dot green"></span>
+            <span class="window-title">~/github.stats</span>
+          </div>
+          <div class="window-body">
+            <p class="section-caption">gh stats --user [YOUR_GITHUB_USERNAME]</p>
+
+            <div class="github-grid">
+              <!-- Replace src values with your actual GitHub stats image URLs if you use a stats service -->
+              <figure class="github-card">
+                <figcaption>activity_overview</figcaption>
+                <div class="github-frame">
+                  <img
+                    src="[GITHUB_STATS_CARD_URL]"
+                    alt="GitHub stats overview for [YOUR_GITHUB_USERNAME]"
+                    loading="lazy"
+                  />
+                </div>
+              </figure>
+
+              <figure class="github-card">
+                <figcaption>top_languages</figcaption>
+                <div class="github-frame">
+                  <img
+                    src="[GITHUB_TOP_LANGS_URL]"
+                    alt="Top languages used by [YOUR_GITHUB_USERNAME] on GitHub"
+                    loading="lazy"
+                  />
+                </div>
+              </figure>
+
+              <figure class="github-card">
+                <figcaption>contribution_heatmap</figcaption>
+                <div class="github-frame github-heatmap-placeholder">
+                  <!-- Replace with your own GitHub contribution graph image or embed -->
+                  <span>
+                    [Optional contribution heatmap image for <strong>[YOUR_GITHUB_USERNAME]</strong> goes here]
+                  </span>
+                </div>
+              </figure>
+            </div>
+
+            <div class="github-footer-links">
+              <!-- Replace link -->
+              <a href="[YOUR_GITHUB_URL]" target="_blank" rel="noopener noreferrer">open_github_profile</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- TECH STACK -->
+        <section id="stack" class="terminal-window section-window" aria-label="Tech stack">
+          <div class="window-header">
+            <span class="window-dot red"></span>
+            <span class="window-dot amber"></span>
+            <span class="window-dot green"></span>
+            <span class="window-title">~/stack.yml</span>
+          </div>
+          <div class="window-body">
+            <p class="section-caption">cat ./config/stack.yml</p>
+
+            <div class="stack-columns">
+              <div class="stack-column">
+                <h3 class="stack-heading">core</h3>
+                <ul class="stack-list">
+                  <!-- Replace with your core languages/frameworks -->
+                  <li>language: [JavaScript / TypeScript / etc]</li>
+                  <li>frontend: [React / Next.js / etc]</li>
+                  <li>backend: [Node.js / Express / etc]</li>
+                  <li>database: [MongoDB / Postgres / etc]</li>
+                </ul>
+              </div>
+
+              <div class="stack-column">
+                <h3 class="stack-heading">tooling</h3>
+                <ul class="stack-list">
+                  <!-- Replace with your tools -->
+                  <li>version_control: [Git, GitHub]</li>
+                  <li>bundlers: [Vite / Webpack / etc]</li>
+                  <li>styling: [Tailwind CSS / CSS Modules / etc]</li>
+                  <li>testing: [Jest / Playwright / etc]</li>
+                </ul>
+              </div>
+
+              <div class="stack-column">
+                <h3 class="stack-heading">dev_ops & misc</h3>
+                <ul class="stack-list">
+                  <!-- Replace with your infra / ops tools -->
+                  <li>hosting: [Vercel / Netlify / Render / etc]</li>
+                  <li>ci_cd: [GitHub Actions / etc]</li>
+                  <li>observability: [Sentry / Log tools]</li>
+                  <li>other: [CLI tools, linters, formatters]</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- BLOG POSTS -->
+        <section id="blog" class="terminal-window section-window" aria-label="Blog posts">
+          <div class="window-header">
+            <span class="window-dot red"></span>
+            <span class="window-dot amber"></span>
+            <span class="window-dot green"></span>
+            <span class="window-title">~/blog</span>
+          </div>
+          <div class="window-body">
+            <p class="section-caption">ls ./posts | sort -r</p>
+
+            <div class="blog-list">
+              <!-- BLOG POST 1 -->
+              <article class="blog-entry">
+                <!-- Replace date & title -->
+                <header>
+                  <p class="blog-date">[YYYY-MM-DD]</p>
+                  <h3 class="blog-title">[Post title about an open-source project or deep-dive]</h3>
+                </header>
+                <!-- Replace summary -->
+                <p class="blog-summary">
+                  [1–2 sentence summary of the article. Mention what readers will learn and who it's for.]
+                </p>
+                <!-- Replace link -->
+                <a href="[BLOG_POST_1_URL]" target="_blank" rel="noopener noreferrer" class="blog-link">
+                  read_article
+                </a>
+              </article>
+
+              <!-- BLOG POST 2 -->
+              <article class="blog-entry">
+                <header>
+                  <p class="blog-date">[YYYY-MM-DD]</p>
+                  <h3 class="blog-title">[Post title about architecture, scaling, or design]</h3>
+                </header>
+                <p class="blog-summary">
+                  [1–2 sentence summary. Focus on systems, performance, or architecture insights you share.]
+                </p>
+                <a href="[BLOG_POST_2_URL]" target="_blank" rel="noopener noreferrer" class="blog-link">
+                  read_article
+                </a>
+              </article>
+
+              <!-- BLOG POST 3 -->
+              <article class="blog-entry">
+                <header>
+                  <p class="blog-date">[YYYY-MM-DD]</p>
+                  <h3 class="blog-title">[Post title about learning, career, or retrospectives]</h3>
+                </header>
+                <p class="blog-summary">
+                  [1–2 sentence summary. This can be about things you’re learning, mistakes, or dev career notes.]
+                </p>
+                <a href="[BLOG_POST_3_URL]" target="_blank" rel="noopener noreferrer" class="blog-link">
+                  read_article
+                </a>
+              </article>
+            </div>
+
+            <!-- Optional "all posts" link -->
+            <div class="blog-footer">
+              <!-- Replace link -->
+              <a href="[ALL_POSTS_URL]" target="_blank" rel="noopener noreferrer">
+                view_all_posts
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section id="contact" class="terminal-window section-window" aria-label="Contact form">
+          <div class="window-header">
+            <span class="window-dot red"></span>
+            <span class="window-dot amber"></span>
+            <span class="window-dot green"></span>
+            <span class="window-title">~/contact.sh</span>
+          </div>
+          <div class="window-body">
+            <p class="section-caption">./contact.sh --open</p>
+
+            <!-- Replace action / mailto target with your own endpoint -->
+            <form
+              class="contact-form"
+              action="mailto:[YOUR_EMAIL_ADDRESS]"
+              method="post"
+              enctype="text/plain"
+            >
+              <div class="form-row">
+                <label for="name">
+                  name
+                  <span class="field-hint"># how should I address you?</span>
+                </label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  autocomplete="name"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+
+              <div class="form-row">
+                <label for="email">
+                  email
+                  <span class="field-hint"># where can I reply?</span>
+                </label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  placeholder="you@example.dev"
+                  required
+                />
+              </div>
+
+              <div class="form-row">
+                <label for="reason">
+                  reason
+                  <span class="field-hint"># pick what fits best</span>
+                </label>
+                <select id="reason" name="reason">
+                  <option value="freelance">Freelance project</option>
+                  <option value="oss">Open‑source collaboration</option>
+                  <option value="fulltime">Full‑time opportunity</option>
+                  <option value="other">Something else</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label for="message">
+                  message
+                  <span class="field-hint"># share as much detail as you like</span>
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Short description of what you'd like to work on together…"
+                  required
+                ></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-solid">send_message</button>
+                <span class="form-note">
+                  <!-- Replace with your preferred response time -->
+                  I usually respond within 24–48 hours.
+                </span>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer" aria-label="Footer">
+        <div class="footer-inner">
+          <!-- Replace with your handle -->
+          <span class="footer-left">
+            © <span id="year"></span> [YOUR_NAME] · built_with_care
+          </span>
+          <span class="footer-right">
+            <span class="footer-led on"></span>
+            terminal_status: running
+          </span>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      // minimal helper to keep the year up to date
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
