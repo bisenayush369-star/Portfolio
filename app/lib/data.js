@@ -52,10 +52,10 @@ export const rolesData = [
 export const projectsData = [
   {
     name: 'KeyOps',
-    desc: 'Full-stack password manager built with secure credential storage, JWT-based authentication, and production-ready REST APIs. Focused on backend security, async handling, and solving real-world deployment challenges like Render cold starts.',
+    desc: 'Full-stack password manager built with secure credential storage, NextAuth-based authentication, and production-ready REST APIs. Focused on backend security, async handling, and solving real-world deployment challenges like Render cold starts.',
     learning: [
       '• Password security → hashing & safe storage implementation (+25%)',
-      '• JWT auth → secure routes & session management (+20%)',
+      '• NextAuth → secure routes & session management (+20%)',
       '• MongoDB Atlas → cloud DB setup & optimization (+15%)',
       '• REST APIs → efficient CRUD operations (+15%)',
       '• Render issue fix → async handling & retry logic (+20%)',
@@ -167,7 +167,7 @@ export const skillsData = [
 
 export const stackData = [
   { category: 'Frontend', items: ['React', 'Next.js', 'JavaScript (ES6+)', 'Tailwind CSS', 'HTML5 & CSS3', 'Vite'] },
-  { category: 'Backend', items: ['Node.js', 'Express.js', 'MongoDB', 'REST API Development', 'Authentication (JWT, NextAuth)', 'Database Design'] },
+  { category: 'Backend', items: ['Node.js', 'Express.js', 'MongoDB', 'REST API Development', 'Authentication (NextAuth)', 'Database Design'] },
   { category: 'Tools', items: ['Git & GitHub', 'VS Code', 'API Testing (Postman)', 'Deployment: Render, Vercel, Netlify', 'Performance Optimization'] },
   { category: 'Specialization', items: ['MERN Stack', 'Scalable App Structure', 'UI/UX Design', 'API Integration', 'Responsive UI Design'] },
   { category: 'AI Tools', items: ['Claude AI → code generation, debugging & complex problem solving', 'ChatGPT → UI building, logic structuring & rapid iteration', 'GitHub Copilot → real-time coding assistance', 'Prompt engineering → building features & components using AI', 'AI image automation → dynamic frontend image handling'] }

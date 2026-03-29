@@ -164,10 +164,10 @@ export default function Home() {
           {[
             {
               name: "KeyOps (Password Manager)",
-              desc: "Full-stack password manager built with secure credential storage, JWT-based authentication, and production-ready REST APIs. Focused on backend security, async handling, and solving real-world deployment challenges like Render cold starts.",
+              desc: "Full-stack password manager built with secure credential storage, NextAuth-based authentication, and production-ready REST APIs. Focused on backend security, async handling, and solving real-world deployment challenges like Render cold starts.",
               learning: [
                 "• Password security → hashing & safe storage implementation (+25%)",
-                "• JWT auth → secure routes & session management (+20%)",
+                "• NextAuth → secure routes & session management (+20%)",
                 "• MongoDB Atlas → cloud DB setup & optimization (+15%)",
                 "• REST APIs → efficient CRUD operations (+15%)",
                 "• Render issue fix → async handling & retry logic (+20%)",
@@ -524,7 +524,7 @@ export default function Home() {
                 "Express.js",
                 "MongoDB",
                 "REST API Development",
-                "Authentication (JWT, NextAuth)",
+                "Authentication (NextAuth)",
                 "Database Design",
               ],
             },
