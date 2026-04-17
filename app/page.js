@@ -676,7 +676,7 @@ export default function Home() {
                 X (Twitter)
               </a>
               <a
-                href="https://www.linkedin.com/in/ayush-bisen-53a970398/"
+                href="https://www.linkedin.com/in/ayush-bisen-a24236401/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-cyan-400 hover:text-cyan-300"
